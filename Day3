@@ -1,0 +1,31 @@
+fullname='nasurudeen'
+print(fullname)
+print(fullname.title())
+print(fullname.upper())
+print(fullname.lower())
+firstname='nasuru'
+secondname='deen'
+Introduction of f strings
+# General syntax of a f strings
+f"custom words,{placeholder1}{placeholder2}...{placeholder..n}"
+fullname=f"{firstname}{secondname}"
+print(fullname)
+print(fullname.title())
+message=f"keep up the good works,{fullname.title()}"
+print(message)
+Adding white space to string
+#Req:Survey to choose the favorite programming language
+print("favorite_language:Pythoncc++javapascal")
+print("favorite_language:\nPython\nc\nc++\njava\npascal")
+print("favorite_language:\t\nPython\t\nc\t\nc++\t\njava\t\npascal")
+\n-->New line delimiter
+\t-->tab delimiter
+#Removing white space from string
+name='nasurudeen'
+print(name)
+name1=' nasurudeen '
+print(name1.lstrip())
+name2='nasurudeen '
+print(name2.rstrip())
+name3=' nasurudeen '
+print(name3.strip())
