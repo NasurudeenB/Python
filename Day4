@@ -1,0 +1,16 @@
+List Data type
+Definition : A list is a collection of items in a particular order
+Clasification : It is classified as a mutable datatype
+How do you declare a list! [] square parentheses
+students=['Naveen','Kranthi', 'hema'] # 0,1,2,3
+print(students) #which type to validate data
+type(students)
+list
+print(students)
+# req: How to access the elements from the list?
+Indexing : 0,1,2,3...
+print(students[1]) --> Kranthi
+print(students[2]) --> hema
+print(students[2].title()) --> Hema
+Q: How to add new elements to the list
+Q: 
