@@ -1,0 +1,35 @@
+#organising the list data
+cars=('kia','maruthi',benz','bmw','audi','suzuki')
+print(cars)
+type(cars)
+list
+#req:I want to organize the above cars list in alphapetical order
+#2Approach
+1.Tem. Approach -->Sorted
+2.Permanent approach-->sort
+Temp Approach
+print(sorted(cars))
+print(sort(cars))
+print(cars)
+Now AtoZ order will be permanent
+#Q: How to print the list in reverse order
+print(cars.reverse()) --> reverse order will be permanent
+#Q:Count the no.of elements in the list
+len(cars)
+Slicing of the list
+cars=('kia','maruthi',benz','bmw','audi','suzuki')
+print(cars)
+General syntax of slicing 
+satrtvalue:stopvalue:stepcount ===> indexing no.
+Note: List value or stop value is always exclusive than name,it will be inclusive than 
+#req: I want to include save data and further in the same slice
+print(cars[0:1])
+Increase the index value by 1 to include the last value or stop value
+print(cars[0:2])
+print(cars[2:4])
+print(cars[4:6])
+
+step cout is skip the value one or two or... based on need
+print(cars[0:6:2])
+
+
